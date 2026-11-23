@@ -6,7 +6,7 @@
    kind create cluster --config cluster.yml
    ```
 
-2. Deploy the infrastructure (this also applies `.infrastructure/security/rbac.yml`):
+2. Deploy the infrastructure (this also applies `security/rbac.yml`):
 
    ```bash
    bash bootstrap.sh
